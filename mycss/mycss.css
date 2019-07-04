@@ -1,0 +1,352 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Neucha|Poppins|Rock+Salt|Source+Code+Pro&display=swap');
+
+
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Crimson Text', serif;
+font-family: 'Source Code Pro', monospace;
+font-family: 'Neucha', cursive;
+font-family: 'Rock Salt', cursive;
+*/
+
+
+
+*{
+    
+ font-family: 'Crimson Text', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1{
+    font-family: 'Rock Salt', cursive;
+}
+
+
+h2, h3, h4, h5, h6{
+    font-family: 'Source Code Pro', monospace;
+    text-transform: uppercase;
+}
+
+
+
+hr{
+ background-color: white;
+height: 1px;
+border: 1px dashed #000;
+}
+
+/*Nav*/
+
+
+
+
+
+
+
+
+header{
+
+    background-color: black
+}
+
+
+header img{
+    max-width: 1000px;
+    max-height: 100px;
+   
+    filter: grayscale(50%)
+    opacity(50%)
+
+}
+
+nav ul{
+    text-align: right;
+  
+}
+
+nav li{
+    display: inline-block;
+ 
+        
+}
+nav a{color: white;
+    text-decoration: none;
+    display: block;
+       font-family: 'Source Code Pro', monospace;
+    text-transform: uppercase; 
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 25px;
+}
+
+nav a:hover{
+    color: antiquewhite;
+    text-decoration: underline;
+       
+}
+
+
+header h4{
+    color: white;
+}
+
+.container{
+    text-align: center;
+    max-width: 1000px;
+    margin: 0px auto;
+}
+
+
+.container:after{
+    content:' ';
+    display: block;
+    clear: both;
+
+}
+
+
+/*specialty*/
+
+.firstContainer{
+
+}
+
+.aboutme{
+
+    font-family: 'Rock Salt', cursive;
+}
+
+.aboutme h1{
+    font-family: 'Rock Salt', cursive;
+}
+
+#nameSizeBigger{
+    font-size: 45px;
+    font-family: 'Rock Salt', cursive;
+}
+
+#specialtySizeBigger{
+     font-size: 45px;
+    font-family: 'Rock Salt', cursive;
+}
+
+
+.specialty{
+    width:33.333333%;
+    height: 300px;
+    float: left;
+
+}
+
+
+
+
+
+.specialtydetail p{
+    color:white;
+    margin-top: 90px;
+ 
+}
+
+
+.specialtydetail h3{
+    color: white;
+    text-align: center;
+    margin-bottom: 200px;
+    padding: 10px;
+}
+
+
+#s1{
+    background: url(../myimage/GIS_Mapping.png);
+    background-size: cover;
+    background-position: center center;
+    filter:grayscale(100%);
+    border: solid;
+}
+
+
+#s2{
+    background: url(../myimage/Real%20estate%20finance%20modeling.png);
+    background-size: cover;
+    background-position: center center;
+    filter:grayscale(100%);
+    border: solid;
+}
+
+
+#s3{
+    background: url(../myimage/photography.jpg);
+    background-size: cover;
+    background-position: center center;
+    filter:grayscale(100%);
+    border: solid;
+}
+
+
+
+#s4{
+    background: url(../myimage/policy%20analysis.jpeg);
+    background-size: cover;
+    background-position: center center;
+    filter:grayscale(100%);
+    border: solid;
+}
+
+
+#s5{
+    background: url(../myimage/web-applications.png);
+    background-size: cover;
+    background-position: center center;
+    filter:grayscale(100%);
+    border: solid;
+}
+
+
+
+#s6{
+    background: url(../myimage/journalism.jpg);
+    background-size: cover;
+    background-position: center center;
+    filter:grayscale(100%);
+    border: solid;
+}
+
+@keyframes fadein{
+    0%{opacity: 0;}
+    100%{0pacity 100;}
+}
+
+.specialtydetail{
+    height: 100%;
+    display: none;
+}
+
+
+
+.overlay{
+    background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.9));
+}
+
+
+
+.specialty:hover .specialtydetail{
+    animation: fadein 1s linear 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#specialty2{
+    margin-bottom: 40px;
+}
+
+
+
+.contactMe{
+    margin-top: 30px;
+   
+}
+
+
+.contactMe .fas{
+     text-decoration: none;
+    color:black;
+    
+}
+
+.contactMe .far{
+     text-decoration: none;
+    color:black;
+    
+}
+
+.contactMe a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+
+.contactMe iframe{
+    filter:grayscale(100%);
+    border: 8px;
+}
+
+.formcontainer{
+    text-align: center;
+    max-width: 300px;
+    margin: 0px auto;
+    margin-bottom: 10px;
+    border: solid;
+    padding: 5px;
+}
+
+
+.formcontainer:after{
+    content:' ';
+    display: block;
+    clear: both;
+
+}
+
+.form label{
+    font-weight: bold;
+}
+.form p{
+    font-weight: bold;
+}
+
+.form input{
+    font-weight: bold;
+}
+
+
+footer{
+    background-color: black;
+    padding: 10px;
+}
+footer h4{
+    color: white; 
+    text-align: right;
+}
+
+footer a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    border: 2px solid #fff;
+    border-radius:600px; 
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+
+footer .fab{
+    font-size: 40px;
+}
+
+footer .fas{
+    font-size: 40px;
+}
+
+footer a:hover{
+    background: white;
+}
+
+footer a:hover .fab{
+    color:#000;
+}
+
+footer a:hover  .fas{
+    color: #000;
+}
+
+
