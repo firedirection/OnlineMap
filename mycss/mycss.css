@@ -217,6 +217,14 @@ header h4{
     border: solid;
 }
 
+
+
+
+#map1{height: 180px;
+    
+}
+
+
 @keyframes fadein{
     0%{opacity: 0;}
     100%{0pacity 100;}
